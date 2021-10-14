@@ -1,4 +1,3 @@
-import { GOOGLE_API_KEY } from "@env";
 
 //Function to call the backend Google API
 const distanceApi = async (
@@ -11,7 +10,7 @@ const distanceApi = async (
   destin6
 ) => {
   const response = await fetch(
-    `https://maps.googleapis.com/maps/api/distancematrix/json?origins=${start}&destinations=${destin1}|${destin2}|${destin3}|${destin4}|${destin5}|${destin6}&key=${GOOGLE_API_KEY}`
+    `https://maps.googleapis.com/maps/api/distancematrix/json?origins=${start}&destinations=${destin1}|${destin2}|${destin3}|${destin4}|${destin5}|${destin6}&key=AIzaSyCbVkeMKDnCRq2J5jlEI8Tc0jzA7j3K43`
   );
   let sortedDuration = [];
 

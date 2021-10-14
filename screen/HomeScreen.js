@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Platform,
 } from "react-native";
-import Input from "../components /Input";
+import Input from "../components/Input";
 import distanceApi from "../api/DistanceAPI";
 
 const HomeScreen = () => {
